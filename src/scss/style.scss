@@ -1,8 +1,5 @@
 @import 'reset';
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Fredericka+the+Great&family=Henny+Penny&display=swap');
-body {
-	background: #c9c0f5;
-}
 
 figure {
 	h1 {
@@ -158,6 +155,49 @@ figure {
 			border: 1px solid #222;
 			cursor: pointer;
 			//margin-left: 10px;
+		}
+	}
+}
+
+@media screen and (max-width: 1399px) {
+	figure {
+		h1 {
+			font-size: 40px;
+			top: 5vh;
+			left: 5vw;
+		}
+
+		.cameraBtns {
+			top: 7vh;
+			right: 5vw;
+
+			li {
+				margin-left: 40px;
+				font: italic 18px/1 'Architects Daughter';
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 899px) {
+	figure {
+		h1 {
+			font-size: 30px;
+			top: 3vh;
+			left: 5vw;
+			color: #111;
+		}
+
+		.cameraBtns {
+			top: 11vh;
+			right: auto;
+			left: 5vw;
+
+			li {
+				margin-left: 0px;
+				margin-right: 20px;
+				font: italic 16px/1 'Architects Daughter';
+			}
 		}
 	}
 }
